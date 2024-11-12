@@ -8,7 +8,7 @@ import {
   useNavigation,
 } from '@react-navigation/native';
 import { Button } from '@react-navigation/elements';
-
+import Ventas from './ventanas/Ventas';
 function HomeScreen() {
   const navigation = useNavigation();
 
@@ -35,6 +35,7 @@ const Drawer = createDrawerNavigator({
   screens: {
     Home: HomeScreen,
     Notifications: NotificationsScreen,
+    Ventanas: Ventas,
   },
 });
 
