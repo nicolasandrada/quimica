@@ -9,6 +9,9 @@ import {
 } from '@react-navigation/native';
 import { Button } from '@react-navigation/elements';
 import Ventas from './ventanas/Ventas';
+import Inicio from './ventanas/Inicio';
+
+
 function HomeScreen() {
   const navigation = useNavigation();
 
@@ -33,9 +36,9 @@ function NotificationsScreen() {
 
 const Drawer = createDrawerNavigator({
   screens: {
-    Home: HomeScreen,
-    Notifications: NotificationsScreen,
-    Ventanas: Ventas,
+    Inicio: Inicio,
+    Notificaciones: NotificationsScreen,
+    Ventanas: Ventas
   },
 });
 
