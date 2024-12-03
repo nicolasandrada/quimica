@@ -3,16 +3,16 @@ import { View, StyleSheet, Text, TextInput } from 'react-native';
 
 export default function Inicio(){
     return (
-        <View style={styles.container}> 
-            <Text>hola</Text>
+        <View style={styles.container}>
+            <Text>Bienvenido a StockInVent</Text>
             <TextInput style={styles.input}/>
         </View>
     )
 }
 const styles=StyleSheet.create({
     container: {
-        flex:0.5,
-        backgroundColor: '#43',
+        flex:1,
+        backgroundColor: '#0DE8E4',
     },
     input: {
         height: 40,
