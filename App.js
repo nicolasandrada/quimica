@@ -29,7 +29,7 @@ function NotificationsScreen() {
 
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button onPress={() => navigation.goBack()}>Go back home</Button>
+      <Button onPress={() => navigation.goBack()}>ir al Inicio</Button>
     </View>
   );
 }
